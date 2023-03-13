@@ -16,20 +16,21 @@
   position: absolute;
   border: 1px solid white;
   width: 200px;
-  height: 200px;
-  top: 150px;
+  height: 300px;
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 50%;
   background-image: url("../images/song.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: 50%;
 }
 #iconBox {
   width: 250px;
   height: 60px;
   position: absolute;
-  top: 380px;
+  top: 420px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -54,6 +55,24 @@
   background-size: contain;
   background-position-x: 50%;
 }
+#category{
+  position:absolute;
+  min-height:100px;
+  display:inline-block;
+  left: 50%;
+  top: 500px;
+  transform: translateX(-50%);
+}
+#categoryUl{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.categoryList{
+  margin-top: 10px;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
 
 #main {
   border-right: 1px solid blue;
@@ -62,4 +81,20 @@
   min-height: 2000px;
   position: relative;
   left: 300px;
+}
+#aboutPage{
+  width:1410px;
+  height: 100vh;
+}
+#skillPage{
+  width:1410px;
+  height: 100vh;
+}
+#educationPage{
+  width:1410px;
+  height: 100vh;
+}
+#doPage{
+  width:1410px;
+  height: 100vh;
 }
